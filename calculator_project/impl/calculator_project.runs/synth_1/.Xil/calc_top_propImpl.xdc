@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/hafer/Desktop/CHIP1/calculator_project/impl/calculator_project.srcs/constrs_1/new/calculator_project_constrs.xdc rfile:../../../calculator_project.srcs/constrs_1/new/calculator_project_constrs.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/hafer/Desktop/VHDL/calculator_project/impl/calculator_project.srcs/constrs_1/new/calculator_project_constrs.xdc rfile:../../../calculator_project.srcs/constrs_1/new/calculator_project_constrs.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L1 [get_ports {led_o[15]}]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
