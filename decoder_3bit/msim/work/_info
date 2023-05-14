@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/users/hafer/desktop/chIP1/decoder_3bit/msim
+Edecoder_3bit
+w1678093662
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8../vhdl/decoder_3bit_.vhd
+F../vhdl/decoder_3bit_.vhd
+l0
+L36
+Vk_fGHK9ScNZ2kU<?KFQSC2
+!s100 Ym:b=X0_YaS4[dLk6FGjc3
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1678094683
+!i10b 1
+!s108 1678094682.000000
+!s90 -reportprogress|300|../vhdl/decoder_3bit_.vhd|
+!s107 ../vhdl/decoder_3bit_.vhd|
+!i113 1
+Z5 tExplicit 1 CvgOpt 0
+Artl
+w1678094411
+Z6 DEx4 work 12 decoder_3bit 0 22 k_fGHK9ScNZ2kU<?KFQSC2
+R1
+R2
+8../vhdl/decoder_3bit_rtl.vhd
+F../vhdl/decoder_3bit_rtl.vhd
+l37
+L36
+V[9=jg49P7<llTh=`2HZng1
+!s100 J0ca6GKiMb4ofj4`f@2m72
+R3
+32
+R4
+!i10b 1
+Z7 !s108 1678094683.000000
+!s90 -reportprogress|300|../vhdl/decoder_3bit_rtl.vhd|
+!s107 ../vhdl/decoder_3bit_rtl.vhd|
+!i113 1
+R5
+Cdecoder_3bit_rtl_cfg
+edecoder_3bit
+artl
+DAx4 work 12 decoder_3bit 3 rtl 22 [9=jg49P7<llTh=`2HZng1
+R1
+R2
+R6
+w1678093497
+R0
+8../vhdl/decoder_3bit_rtl_cfg.vhd
+F../vhdl/decoder_3bit_rtl_cfg.vhd
+l0
+L34
+VV6mm4<kXiQ6Ac8E]V<^;c2
+!s100 j==0hXnf00oAAYef?IWYQ2
+R3
+32
+R4
+!i10b 0
+R7
+!s90 -reportprogress|300|../vhdl/decoder_3bit_rtl_cfg.vhd|
+!s107 ../vhdl/decoder_3bit_rtl_cfg.vhd|
+!i113 1
+R5
+Etb_decoder_3bit
+w1678093626
+R1
+R2
+R0
+8../tb/tb_decoder_3bit_.vhd
+F../tb/tb_decoder_3bit_.vhd
+l0
+L37
+VBFcf2`jDLIc@0h5L[78ZL1
+!s100 FaGBnDUHPBS6?EnnLz<8R1
+R3
+32
+R4
+!i10b 1
+R7
+!s90 -reportprogress|300|../tb/tb_decoder_3bit_.vhd|
+!s107 ../tb/tb_decoder_3bit_.vhd|
+!i113 1
+R5
+Asim
+w1678094675
+Z8 DEx4 work 15 tb_decoder_3bit 0 22 BFcf2`jDLIc@0h5L[78ZL1
+R1
+R2
+Z9 8../tb/tb_decoder_3bit_sim.vhd
+Z10 F../tb/tb_decoder_3bit_sim.vhd
+l48
+L37
+VjB;ZLZWXWdm5fI^F_Z;_13
+!s100 Z]M?5No0dJe]lUkLB^SLO1
+R3
+32
+R4
+!i10b 1
+R7
+Z11 !s90 -reportprogress|300|../tb/tb_decoder_3bit_sim.vhd|
+!s107 ../tb/tb_decoder_3bit_sim.vhd|
+!i113 1
+R5

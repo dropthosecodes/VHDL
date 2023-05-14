@@ -1,0 +1,116 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hafer/Desktop/CHIP1/adder_8bit/msim
+Eadder_8bit
+w1679305253
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/users/hafer/desktop/chIP1/adder_8bit/msim
+8../vhdl/adder_8bit_.vhd
+F../vhdl/adder_8bit_.vhd
+l0
+L36
+VOD[n^QcCfE<AD3_Tf8DOk1
+!s100 C4Plz;R^JUKYlECPm=iTX1
+Z4 OV;C;10.5b;63
+32
+Z5 !s110 1679899266
+!i10b 1
+!s108 1679899265.000000
+!s90 -reportprogress|300|../vhdl/adder_8bit_.vhd|
+!s107 ../vhdl/adder_8bit_.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Artl
+w1679306184
+Z7 DEx4 work 10 adder_8bit 0 22 OD[n^QcCfE<AD3_Tf8DOk1
+Z8 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+8../vhdl/adder_8bit_rtl.vhd
+F../vhdl/adder_8bit_rtl.vhd
+l41
+L39
+Vj3CBbK1GE]KKR9ef6aT[63
+!s100 5ce4gfJUnKBC8=g_j@G5j1
+R4
+32
+R5
+!i10b 1
+Z9 !s108 1679899266.000000
+!s90 -reportprogress|300|../vhdl/adder_8bit_rtl.vhd|
+!s107 ../vhdl/adder_8bit_rtl.vhd|
+!i113 1
+R6
+Cadder_8bit_rtl_cfg
+eadder_8bit
+artl
+R8
+DAx4 work 10 adder_8bit 3 rtl 22 j3CBbK1GE]KKR9ef6aT[63
+R1
+R2
+R7
+w1679302550
+R3
+8../vhdl/adder_8bit_rtl_cfg.vhd
+F../vhdl/adder_8bit_rtl_cfg.vhd
+l0
+L34
+V4<U5JzBbi4NLYP=eI1NhH2
+!s100 Kj9m^J:a01XlhHSZ<_F[V2
+R4
+32
+R5
+!i10b 0
+R9
+!s90 -reportprogress|300|../vhdl/adder_8bit_rtl_cfg.vhd|
+!s107 ../vhdl/adder_8bit_rtl_cfg.vhd|
+!i113 1
+R6
+Etb_adder_8bit
+w1679302578
+R1
+R2
+R3
+8../tb/tb_adder_8bit_.vhd
+F../tb/tb_adder_8bit_.vhd
+l0
+L37
+VOzOmjD>=]A=@ad;L^7jCJ0
+!s100 [^3m:mSk`PVA^J;@S:aUI3
+R4
+32
+R5
+!i10b 1
+R9
+!s90 -reportprogress|300|../tb/tb_adder_8bit_.vhd|
+!s107 ../tb/tb_adder_8bit_.vhd|
+!i113 1
+R6
+Asim
+w1679305354
+Z10 DEx4 work 13 tb_adder_8bit 0 22 OzOmjD>=]A=@ad;L^7jCJ0
+R1
+R2
+Z11 8../tb/tb_adder_8bit_sim.vhd
+Z12 F../tb/tb_adder_8bit_sim.vhd
+l55
+L37
+Z13 V?V9=fPM8UFF?k4hS?fQd@3
+Z14 !s100 icmaYPTQT3[HghPkEZz5H2
+R4
+32
+R5
+!i10b 1
+R9
+Z15 !s90 -reportprogress|300|../tb/tb_adder_8bit_sim.vhd|
+!s107 ../tb/tb_adder_8bit_sim.vhd|
+!i113 1
+R6

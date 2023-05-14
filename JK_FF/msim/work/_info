@@ -1,0 +1,114 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/users/hafer/desktop/chip1/jk_FF/msim
+Ejk_ff
+w1678696599
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8../vhdl/JK_FF_.vhd
+F../vhdl/JK_FF_.vhd
+l0
+L36
+V<h=P2NVBnRzHhHN:>9Lo@3
+!s100 @5hZk5PkZ28RD>h5MFko02
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1678697505
+!i10b 1
+Z5 !s108 1678697505.000000
+!s90 -reportprogress|300|../vhdl/JK_FF_.vhd|
+!s107 ../vhdl/JK_FF_.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Artl
+w1678697350
+Z7 DEx4 work 5 jk_ff 0 22 <h=P2NVBnRzHhHN:>9Lo@3
+R1
+R2
+8../vhdl/JK_FF_rtl.vhd
+F../vhdl/JK_FF_rtl.vhd
+l40
+L36
+V`of7YMW7M4gmbeT<_8JAV1
+!s100 1<`1K1hVIZni7LCWmX6VW1
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../vhdl/JK_FF_rtl.vhd|
+!s107 ../vhdl/JK_FF_rtl.vhd|
+!i113 1
+R6
+Cjk_ff_rtl_cfg
+eJK_FF
+artl
+DAx4 work 5 jk_ff 3 rtl 22 `of7YMW7M4gmbeT<_8JAV1
+R1
+R2
+R7
+w1678696620
+R0
+8../vhdl/JK_FF_rtl_cfg.vhd
+F../vhdl/JK_FF_rtl_cfg.vhd
+l0
+L34
+VGCkBaMNXmgYZkmERgD^hG2
+!s100 7K?hoF8nmYC::[jWYHk2a0
+R3
+32
+R4
+!i10b 0
+R5
+!s90 -reportprogress|300|../vhdl/JK_FF_rtl_cfg.vhd|
+!s107 ../vhdl/JK_FF_rtl_cfg.vhd|
+!i113 1
+R6
+Etb_jk_ff
+w1678696782
+R1
+R2
+R0
+8../tb/tb_JK_FF_.vhd
+F../tb/tb_JK_FF_.vhd
+l0
+L37
+V`:EVd`CUh<MSd?9aFV]h43
+!s100 0:MYM=Xh;F;`8a;GMZ`ZR2
+R3
+32
+Z8 !s110 1678697506
+!i10b 1
+Z9 !s108 1678697506.000000
+!s90 -reportprogress|300|../tb/tb_JK_FF_.vhd|
+!s107 ../tb/tb_JK_FF_.vhd|
+!i113 1
+R6
+Asim
+w1678697502
+DEx4 work 8 tb_jk_ff 0 22 `:EVd`CUh<MSd?9aFV]h43
+R1
+R2
+8../tb/tb_JK_FF_sim.vhd
+F../tb/tb_JK_FF_sim.vhd
+l54
+L37
+V667QB9mG1:3jooRMHOK@S2
+!s100 DLQ<DAF^>F=RB?kM<Mo:V0
+R3
+32
+R8
+!i10b 1
+R9
+!s90 -reportprogress|300|../tb/tb_JK_FF_sim.vhd|
+!s107 ../tb/tb_JK_FF_sim.vhd|
+!i113 1
+R6

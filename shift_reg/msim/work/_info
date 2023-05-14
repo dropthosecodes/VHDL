@@ -1,0 +1,115 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/users/hafer/desktop/chIP1/shift_reg/msim
+Eshift_reg
+w1679926280
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8../vhdl/shift_reg_.vhd
+F../vhdl/shift_reg_.vhd
+l0
+L4
+VO=]8UV<fJW;LKMR[_EV?D1
+!s100 9gTVYZd;@AG_G`dUKdJEg1
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1679926308
+!i10b 1
+Z5 !s108 1679926308.000000
+!s90 -reportprogress|300|../vhdl/shift_reg_.vhd|
+!s107 ../vhdl/shift_reg_.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Artl
+w1679926295
+Z7 DEx4 work 9 shift_reg 0 22 O=]8UV<fJW;LKMR[_EV?D1
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+8../vhdl/shift_reg_rtl.vhd
+F../vhdl/shift_reg_rtl.vhd
+l9
+L5
+VSl5laF^DL49Z>_TKhj7bh3
+!s100 >^KJML4ezXnZ_HFX:h^j71
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../vhdl/shift_reg_rtl.vhd|
+!s107 ../vhdl/shift_reg_rtl.vhd|
+!i113 1
+R6
+Cshift_reg_rtl_cfg
+eshift_reg
+artl
+R8
+DAx4 work 9 shift_reg 3 rtl 22 Sl5laF^DL49Z>_TKhj7bh3
+R1
+R2
+R7
+w1679926289
+R0
+8../vhdl/shift_reg_rtl_cfg.vhd
+F../vhdl/shift_reg_rtl_cfg.vhd
+l0
+L1
+Vg6XX`Tb^N>Qj7>^`h7lig3
+!s100 J;Aa55`E]j@aJ@PL<SZa13
+R3
+32
+R4
+!i10b 0
+R5
+!s90 -reportprogress|300|../vhdl/shift_reg_rtl_cfg.vhd|
+!s107 ../vhdl/shift_reg_rtl_cfg.vhd|
+!i113 1
+R6
+Etb_shift_reg
+Z9 w1679926258
+R1
+R2
+R0
+8../tb/tb_shift_reg_.vhd
+F../tb/tb_shift_reg_.vhd
+l0
+L4
+V=aX99N6EmVdRDc2[B72Gn1
+!s100 9GgEc=A:AS>eg:V74Uo0C2
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../tb/tb_shift_reg_.vhd|
+!s107 ../tb/tb_shift_reg_.vhd|
+!i113 1
+R6
+Asim
+DEx4 work 12 tb_shift_reg 0 22 =aX99N6EmVdRDc2[B72Gn1
+R1
+R2
+Z10 8../tb/tb_shift_reg_sim.vhd
+Z11 F../tb/tb_shift_reg_sim.vhd
+l23
+L4
+VJ_2AO:Y;ILCAI_RO<az7Q1
+!s100 Yhie?D_:AaoP0_5;@FOo93
+R3
+32
+R4
+!i10b 1
+R5
+Z12 !s90 -reportprogress|300|../tb/tb_shift_reg_sim.vhd|
+!s107 ../tb/tb_shift_reg_sim.vhd|
+!i113 1
+R6

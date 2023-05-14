@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dc:/users/hafer/desktop/chiP1/simplegate/msim
+Etb_xorgate
+w1676901512
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 dc:/users/hafer/desktop/chip1/simplegate/msim
+8../tb/tb_xorgate_.vhd
+F../tb/tb_xorgate_.vhd
+l0
+L41
+V`L`>CGa0RJD9DjI4LM@100
+!s100 oWli_hg[JdohjW=j_ac2S3
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1677484654
+!i10b 1
+Z5 !s108 1677484654.000000
+!s90 -reportprogress|300|../tb/tb_xorgate_.vhd|
+!s107 ../tb/tb_xorgate_.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Asim
+Z7 w1676980252
+Z8 DEx4 work 10 tb_xorgate 0 22 `L`>CGa0RJD9DjI4LM@100
+R0
+R1
+Z9 8../tb/tb_xorgate_sim.vhd
+Z10 F../tb/tb_xorgate_sim.vhd
+l55
+L41
+Z11 VVUX98JY5F7J653iG2GCaG1
+Z12 !s100 1OXmZ`NL;NbQiRUF[lB1z0
+R3
+32
+R4
+!i10b 1
+R5
+Z13 !s90 -reportprogress|300|../tb/tb_xorgate_sim.vhd|
+!s107 ../tb/tb_xorgate_sim.vhd|
+!i113 1
+R6
+Exorgate
+Z14 w1676901622
+R0
+R1
+R2
+8../vhdl/xorgate_.vhd
+F../vhdl/xorgate_.vhd
+l0
+L40
+V?IXVNCblO[8;NSk<E83_R2
+!s100 Mfa9bFaPZ]Z9CMYJh6<4`2
+R3
+32
+Z15 !s110 1677484653
+!i10b 1
+Z16 !s108 1677484653.000000
+!s90 -reportprogress|300|../vhdl/xorgate_.vhd|
+!s107 ../vhdl/xorgate_.vhd|
+!i113 1
+R6
+Artl
+DEx4 work 7 xorgate 0 22 ?IXVNCblO[8;NSk<E83_R2
+R0
+R1
+8../vhdl/xorgate_rtl.vhd
+F../vhdl/xorgate_rtl.vhd
+l41
+L40
+Vl_[TX;;]PoFY8iP`:j7<O3
+!s100 kZ[>P=1B^>YZMLBnG4D9D3
+R3
+32
+R15
+!i10b 1
+R16
+!s90 -reportprogress|300|../vhdl/xorgate_rtl.vhd|
+!s107 ../vhdl/xorgate_rtl.vhd|
+!i113 1
+R6

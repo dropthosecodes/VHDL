@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed May 10 11:42:17 2023
+# Process ID: 17964
+# Current directory: C:/Users/hafer/Desktop/CHIP1/led_example/impl/led_example.runs/synth_1
+# Command line: vivado.exe -log led.vds -mode batch -messageDb vivado.pb -notrace -source led.tcl
+# Log file: C:/Users/hafer/Desktop/CHIP1/led_example/impl/led_example.runs/synth_1/led.vds
+# Journal file: C:/Users/hafer/Desktop/CHIP1/led_example/impl/led_example.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source led.tcl -notrace

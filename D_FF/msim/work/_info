@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dc:/users/hafer/desktop/chip1/d_fF/msim
+Ed_ff
+Z1 w1678696409
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/hafer/Desktop/CHIP1/D_FF/msim
+8../vhdl/D_FF_.vhd
+F../vhdl/D_FF_.vhd
+l0
+L36
+V24?2WOUzZ6X4MC5@Ekj7j0
+!s100 mREog^kod9Ecji:c_cK9m0
+Z5 OV;C;10.5b;63
+32
+Z6 !s110 1679295761
+!i10b 1
+!s108 1679295760.000000
+!s90 -reportprogress|300|../vhdl/D_FF_.vhd|
+!s107 ../vhdl/D_FF_.vhd|
+!i113 1
+Z7 tExplicit 1 CvgOpt 0
+Artl
+Z8 DEx4 work 4 d_ff 0 22 24?2WOUzZ6X4MC5@Ekj7j0
+R2
+R3
+8../vhdl/D_FF_rtl.vhd
+F../vhdl/D_FF_rtl.vhd
+l37
+L36
+VT3S5bFeLC]hjRTPV;7F?P3
+!s100 6W3OA`z?kF`khkK];MRIO1
+R5
+32
+R6
+!i10b 1
+Z9 !s108 1679295761.000000
+!s90 -reportprogress|300|../vhdl/D_FF_rtl.vhd|
+!s107 ../vhdl/D_FF_rtl.vhd|
+!i113 1
+R7
+Cd_ff_rtl_cfg
+eD_FF
+artl
+DAx4 work 4 d_ff 3 rtl 22 T3S5bFeLC]hjRTPV;7F?P3
+R2
+R3
+R8
+w1678695239
+R4
+8../vhdl/D_FF_rtl_cfg.vhd
+F../vhdl/D_FF_rtl_cfg.vhd
+l0
+L34
+V?Un7P6R:CX=i@Q<=QfJ9:2
+!s100 VB:S45ick]c_nZ9_C6ZGm1
+R5
+32
+R6
+!i10b 0
+R9
+!s90 -reportprogress|300|../vhdl/D_FF_rtl_cfg.vhd|
+!s107 ../vhdl/D_FF_rtl_cfg.vhd|
+!i113 1
+R7
+Etb_d_ff
+w1678696387
+R2
+R3
+R4
+8../tb/tb_D_FF_.vhd
+F../tb/tb_D_FF_.vhd
+l0
+L37
+V:IXN:RFY_??0NcFcj[lYM2
+!s100 4?l6AAW=C9nDWNh[EXLJ32
+R5
+32
+R6
+!i10b 1
+R9
+!s90 -reportprogress|300|../tb/tb_D_FF_.vhd|
+!s107 ../tb/tb_D_FF_.vhd|
+!i113 1
+R7
+Asim
+w1679295745
+Z10 DEx4 work 7 tb_d_ff 0 22 :IXN:RFY_??0NcFcj[lYM2
+R2
+R3
+Z11 8../tb/tb_D_FF_sim.vhd
+Z12 F../tb/tb_D_FF_sim.vhd
+l52
+L37
+VbU>2zJXB55[[Zn[G:4Amk0
+!s100 WMWHzJGMmV6AhIJj3fLO81
+R5
+32
+!s110 1679295762
+!i10b 1
+R9
+Z13 !s90 -reportprogress|300|../tb/tb_D_FF_sim.vhd|
+!s107 ../tb/tb_D_FF_sim.vhd|
+!i113 1
+R7
