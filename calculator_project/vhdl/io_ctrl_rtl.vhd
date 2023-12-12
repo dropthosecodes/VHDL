@@ -79,7 +79,7 @@ begin
           end if;
           s_pbsync <= (others => '0');
 
-        when WAIT_S =>  --suboptimal
+        when WAIT_S =>
           if s_1khzen = '1' then
             if pb_i = "0000" then
               s_pbsync <= s_pbsync_temp;

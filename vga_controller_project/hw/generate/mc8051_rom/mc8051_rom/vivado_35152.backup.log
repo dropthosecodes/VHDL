@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Nov 20 09:16:27 2023
+# Process ID: 35152
+# Current directory: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/mc8051_rom/mc8051_rom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36052 C:\Users\hafer\Desktop\VHDL\vga_controller_project\hw\generate\mc8051_rom\mc8051_rom\mc8051_rom.dcp
+# Log file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/mc8051_rom/mc8051_rom/vivado.log
+# Journal file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/mc8051_rom/mc8051_rom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint {C:\Users\hafer\Desktop\VHDL\vga_controller_project\hw\generate\mc8051_rom\mc8051_rom\mc8051_rom.dcp}
+Command: open_checkpoint {C:\Users\hafer\Desktop\VHDL\vga_controller_project\hw\generate\mc8051_rom\mc8051_rom\mc8051_rom.dcp}
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 698.496 ; gain = 10.563
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/mc8051_rom/mc8051_rom/.Xil/Vivado-35152-oager_laptop/dcp/mc8051_rom_early.xdc]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clka. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [c:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/mc8051_rom/mc8051_rom_ooc.xdc:54]
+Finished Parsing XDC File [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/mc8051_rom/mc8051_rom/.Xil/Vivado-35152-oager_laptop/dcp/mc8051_rom_early.xdc]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2016.1 (64-bit) build 1538259
+open_checkpoint: Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 1144.039 ; gain = 469.906
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 20 09:17:19 2023...

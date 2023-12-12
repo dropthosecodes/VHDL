@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Nov 14 16:00:40 2023
+# Process ID: 31232
+# Current directory: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25792 C:\Users\hafer\Desktop\VHDL\vga_controller_project\hw\generate\rom2\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/vivado.log
+# Journal file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/SpaceInvader_100x100_transparent.coe}] [get_ips rom2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/SpaceInvader_100x100_transparent.coe' provided. It will be converted relative to IP Instance files '../../../../images/SpaceInvader_100x100_transparent.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom2'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -no_script -force -quiet
+reset_run rom2_synth_1
+launch_run -jobs 12 rom2_synth_1
+[Tue Nov 14 16:01:11 2023] Launched rom2_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.runs/rom2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/ipstatic -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 14 16:03:03 2023...

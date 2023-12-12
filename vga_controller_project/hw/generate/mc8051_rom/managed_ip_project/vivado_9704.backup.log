@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Oct 03 11:01:27 2023
+# Process ID: 9704
+# Current directory: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14280 C:\Users\hafer\Desktop\VHDL\mc8051_basys3\hw\generate\artix7_xc7a35tcpg263_1\mc8051_rom\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project/vivado.log
+# Journal file: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project'
+INFO: [Project 1-313] Project file moved from 'D:/work/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Write_Depth_A {4096} CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/mc8051_basys3/sw/blink_led/build/mc8051_rom.coe}] [get_ips mc8051_rom]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/mc8051_basys3/sw/blink_led/build/mc8051_rom.coe' provided. It will be converted relative to IP Instance files '../../../../../sw/blink_led/build/mc8051_rom.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/mc8051_rom/mc8051_rom.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'mc8051_rom'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'mc8051_rom'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'mc8051_rom'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'mc8051_rom'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'mc8051_rom'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/mc8051_rom/mc8051_rom.xci] -no_script -force -quiet
+reset_run mc8051_rom_synth_1
+launch_run -jobs 12 mc8051_rom_synth_1
+[Tue Oct 03 11:02:47 2023] Launched mc8051_rom_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/managed_ip_project/managed_ip_project.runs/mc8051_rom_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/mc8051_rom/mc8051_rom.xci] -directory C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/mc8051_rom/ip_user_files/ipstatic -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 03 11:04:02 2023...

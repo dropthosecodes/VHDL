@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/alimo/OneDrive/Desktop/design/project/msim
+Eio_ctrl
+w1685119334
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z2 dC:/users/hafer/desktop/vhdl/project/msim
+8../vhdl/io_ctrl.vhd
+F../vhdl/io_ctrl.vhd
+l0
+L36
+VFgYc5gG05X>_1bX?XGW6F0
+!s100 mVo693UfHih<dJd`K3J[^0
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1685194261
+!i10b 1
+Z5 !s108 1685194261.000000
+!s90 -reportprogress|300|../vhdl/io_ctrl.vhd|
+!s107 ../vhdl/io_ctrl.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Artl
+w1685182080
+DEx4 work 7 io_ctrl 0 22 FgYc5gG05X>_1bX?XGW6F0
+DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R0
+R1
+8../vhdl/io_ctrl_rtl.vhd
+F../vhdl/io_ctrl_rtl.vhd
+l48
+L27
+VGMiP9_Z_Z][SonB;4XPz>3
+!s100 S]fHUQD:eZ8V`Y>JgLigi1
+R3
+32
+R4
+!i10b 1
+R5
+!s90 -reportprogress|300|../vhdl/io_ctrl_rtl.vhd|
+!s107 ../vhdl/io_ctrl_rtl.vhd|
+!i113 1
+R6
+Etb_io_ctrl_sim
+Z7 w1685194259
+Z8 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+R1
+R2
+Z9 8../tb/tb_io_ctrl_sim.vhd
+Z10 F../tb/tb_io_ctrl_sim.vhd
+l0
+L6
+Vn=E@O1D]?B=h5C^aliE9C0
+!s100 A3WE^6[B7LBTIU^MQ7<M;3
+R3
+32
+R4
+!i10b 1
+R5
+Z11 !s90 -reportprogress|300|../tb/tb_io_ctrl_sim.vhd|
+Z12 !s107 ../tb/tb_io_ctrl_sim.vhd|
+!i113 1
+R6
+Asim
+R8
+R0
+R1
+DEx4 work 14 tb_io_ctrl_sim 0 22 n=E@O1D]?B=h5C^aliE9C0
+l48
+L7
+V;I>JU?TfT<C>h=CBV0H`L0
+!s100 BhehB_IB4[Y7hBH<WZX7>1
+R3
+32
+R4
+!i10b 1
+R5
+R11
+R12
+!i113 1
+R6

@@ -19,17 +19,20 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 architecture rtl of calc_ctrl is
+  --Buttons
   constant BTNL : std_logic_vector(3 downto 0):= "1000";  --op1
   constant BTNC : std_logic_vector(3 downto 0):= "0100";  --op2
   constant BTNR : std_logic_vector(3 downto 0):= "0010";  --optype
   constant BTND : std_logic_vector(3 downto 0):= "0001";  --calc
 
+  --Operators
   constant OP_ADD : std_logic_vector(3 downto 0):= "0000";
   constant OP_SUB : std_logic_vector(3 downto 0):= "0001";
   constant OP_RE :  std_logic_vector(3 downto 0):= "0100";
   constant OP_AND : std_logic_vector(3 downto 0):= "1001";
   constant OP_ROL : std_logic_vector(3 downto 0):= "1100";
 
+  --SS digits
   constant SS_0 : std_logic_vector(7 downto 0):= "00000011";
   constant SS_1 : std_logic_vector(7 downto 0):= "10011111";
   constant SS_2 : std_logic_vector(7 downto 0):= "00100101";
@@ -59,6 +62,7 @@ architecture rtl of calc_ctrl is
   constant SS_minus : std_logic_vector(7 downto 0):= "11111101";
   constant SS_empty : std_logic_vector(7 downto 0):= "11111111";
 
+  --Look up table for SS
   type t_lut_hex is array (0 to 15) of std_logic_vector(7 downto 0);
   constant lut_hex : t_lut_hex := (
     0 => SS_0,
@@ -178,6 +182,7 @@ begin
   optype_o <= s_optype_o;
   start_o <= s_start_o;
 
+  --Decoder for SS
   p_ss_decode: process (clk_i, reset_i)
   begin
     if reset_i = '1' then

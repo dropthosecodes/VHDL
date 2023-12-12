@@ -1,0 +1,140 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Nov 14 16:18:15 2023
+# Process ID: 29368
+# Current directory: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7980 C:\Users\hafer\Desktop\VHDL\vga_controller_project\hw\generate\rom2\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/vivado.log
+# Journal file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/custom.coe}] [get_ips rom2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/custom.coe' provided. It will be converted relative to IP Instance files '../../../../images/custom.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom2'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -no_script -force -quiet
+reset_run rom2_synth_1
+launch_run -jobs 12 rom2_synth_1
+[Tue Nov 14 16:18:58 2023] Launched rom2_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.runs/rom2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/ipstatic -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/custom.coe}] [get_ips rom2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/custom.coe' provided. It will be converted relative to IP Instance files '../../../../images/custom.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom2'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -no_script -force -quiet
+reset_run rom2_synth_1
+launch_run -jobs 12 rom2_synth_1
+[Tue Nov 14 17:07:02 2023] Launched rom2_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.runs/rom2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/ipstatic -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/custom.coe}] [get_ips rom2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/custom.coe' provided. It will be converted relative to IP Instance files '../../../../images/custom.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom2'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -no_script -force -quiet
+reset_run rom2_synth_1
+launch_run -jobs 12 rom2_synth_1
+[Tue Nov 14 17:37:10 2023] Launched rom2_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.runs/rom2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/ipstatic -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/toto.coe}] [get_ips rom2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/toto.coe' provided. It will be converted relative to IP Instance files '../../../../images/toto.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom2'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -no_script -force -quiet
+reset_run rom2_synth_1
+launch_run -jobs 12 rom2_synth_1
+[Tue Nov 14 17:48:23 2023] Launched rom2_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.runs/rom2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/ipstatic -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/cat_closed.coe}] [get_ips rom2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/cat_closed.coe' provided. It will be converted relative to IP Instance files '../../../../images/cat_closed.coe'
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom2'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom2'...
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -no_script -force -quiet
+reset_run rom2_synth_1
+launch_run -jobs 12 rom2_synth_1
+[Tue Nov 14 17:58:58 2023] Launched rom2_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.runs/rom2_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/rom2/rom2.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/ip_user_files/ipstatic -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+close_project
+****** Webtalk v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Nov 15 09:49:15 2023...
+create_project managed_ip_project C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/managed_ip_project -part xc7a35tcpg236-1 -ip
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/managed_ip_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+set_property target_language VHDL [current_project]
+set_property target_simulator ModelSim [current_project]
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.3 -module_name rom3 -dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3
+set_property -dict [list CONFIG.Memory_Type {Single_Port_ROM} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {10000} CONFIG.Enable_A {Always_Enabled} CONFIG.Load_Init_File {true} CONFIG.Coe_File {C:/Users/hafer/Desktop/VHDL/vga_controller_project/images/cat_open.coe} CONFIG.Read_Width_A {12} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Port_A_Write_Rate {0}] [get_ips rom3]
+INFO: [IP_Flow 19-3484] Absolute path of file 'c:/Users/hafer/Desktop/VHDL/vga_controller_project/images/cat_open.coe' provided. It will be converted relative to IP Instance files '../../../../images/cat_open.coe'
+generate_target {instantiation_template} [get_files c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/rom3/rom3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'rom3'...
+generate_target all [get_files  c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/rom3/rom3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'rom3'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'rom3'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'rom3'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'rom3'...
+export_ip_user_files -of_objects [get_files c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/rom3/rom3.xci] -no_script -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/rom3/rom3.xci]
+launch_run -jobs 12 rom3_synth_1
+[Wed Nov 15 09:50:27 2023] Launched rom3_synth_1...
+Run output will be captured here: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/managed_ip_project/managed_ip_project.runs/rom3_synth_1/runme.log
+export_simulation -of_objects [get_files c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/rom3/rom3.xci] -directory C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom3/ip_user_files/ipstatic -force -quiet
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 15 14:17:55 2023...

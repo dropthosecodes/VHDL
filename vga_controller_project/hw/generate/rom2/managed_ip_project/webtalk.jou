@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Nov 15 09:49:15 2023
+# Process ID: 38308
+# Current directory: c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project
+# Command line: wbtcv.exe -mode batch -source C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/webtalk.log
+# Journal file: c:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/generate/rom2/managed_ip_project/managed_ip_project.hw/webtalk/labtool_webtalk.tcl -notrace

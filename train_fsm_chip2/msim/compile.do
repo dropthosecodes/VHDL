@@ -1,0 +1,12 @@
+vcom ../vhdl/gate_model_.vhd
+vcom ../vhdl/gate_model_rtl.vhd
+vcom ../vhdl/train_model.vhd
+vcom ../vhdl/train_fsm_.vhd
+vcom ../vhdl/train_fsm_rtl.vhd
+vcom ../vhdl/train_fsm_rtl_cfg.vhd
+vcom ../tb/tb_train_fsm_.vhd
+vcom ../tb/tb_train_fsm_sim.vhd
+vcom ../tb/tb_gate_model_.vhd
+vcom ../tb/tb_gate_model_sim.vhd
+vcom ../tb/tb_train_model_.vhd
+vcom ../tb/tb_train_model_sim.vhd

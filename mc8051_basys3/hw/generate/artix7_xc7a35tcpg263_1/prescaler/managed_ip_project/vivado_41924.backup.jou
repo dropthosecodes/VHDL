@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Oct 03 10:47:02 2023
+# Process ID: 41924
+# Current directory: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/managed_ip_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32540 C:\Users\hafer\Desktop\VHDL\mc8051_basys3\hw\generate\artix7_xc7a35tcpg263_1\prescaler\managed_ip_project\managed_ip_project.xpr
+# Log file: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/managed_ip_project/vivado.log
+# Journal file: C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/managed_ip_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/managed_ip_project/managed_ip_project.xpr
+set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {25.000} CONFIG.MMCM_DIVCLK_DIVIDE {4} CONFIG.MMCM_CLKFBOUT_MULT_F {33} CONFIG.MMCM_CLKOUT0_DIVIDE_F {33} CONFIG.CLKOUT1_JITTER {352.369} CONFIG.CLKOUT1_PHASE_ERROR {261.747}] [get_ips prescaler]
+generate_target all [get_files  C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/prescaler/prescaler.xci]
+export_ip_user_files -of_objects [get_files C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/prescaler/prescaler.xci] -no_script -force -quiet
+reset_run prescaler_synth_1
+launch_run -jobs 12 prescaler_synth_1
+export_simulation -of_objects [get_files C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/prescaler/prescaler.xci] -directory C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/ip_user_files/sim_scripts -ip_user_files_dir C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/ip_user_files -ipstatic_source_dir C:/Users/hafer/Desktop/VHDL/mc8051_basys3/hw/generate/artix7_xc7a35tcpg263_1/prescaler/ip_user_files/ipstatic -force -quiet

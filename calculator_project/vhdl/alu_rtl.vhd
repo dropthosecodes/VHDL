@@ -20,6 +20,7 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 architecture rtl of alu is
+  --Operators
   constant OP_ADD : std_logic_vector(3 downto 0):= "0000";
   constant OP_SUB : std_logic_vector(3 downto 0):= "0001";
   constant OP_RE :  std_logic_vector(3 downto 0):= "0100";
@@ -66,6 +67,7 @@ architecture rtl of alu is
   signal div_ff :             unsigned(11 downto 0);
 begin
 
+  --Add operation
   p_op_add: process (clk_i, reset_i)
   begin
     if reset_i = '1' then --asynchronous reset (active high)
@@ -89,6 +91,7 @@ begin
     end if;
   end process p_op_add;
 
+  --Subtraction
   p_op_sub: process (clk_i, reset_i)
   begin
     if reset_i = '1' then --asynchronous reset (active high)
@@ -117,6 +120,7 @@ begin
     end if;
   end process p_op_sub;
 
+  --Remainder of Division 
   p_op_re: process (clk_i, reset_i)
   variable counter : integer;
   begin
@@ -160,6 +164,7 @@ begin
     end if;
   end process p_op_re;
 
+  --Logical And
   p_op_and: process (clk_i, reset_i)
   begin
     if reset_i = '1' then --asynchronous reset (active high)
@@ -183,6 +188,7 @@ begin
     end if;
   end process p_op_and;
 
+  --Rotate left
   p_op_rol: process (clk_i, reset_i)
   begin
     if reset_i = '1' then --asynchronous reset (active high)
@@ -206,6 +212,7 @@ begin
     end if;
   end process p_op_rol;
 
+  --Multiplexer used to select the appropriate result and error signals
   p_mux: process (clk_i, reset_i)
   begin
     if reset_i = '1' then --asynchronous reset (active high)

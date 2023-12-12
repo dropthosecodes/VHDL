@@ -1,0 +1,2058 @@
+; Content of 1k ROM
+; Author: Peter Roessler
+; Date: 2017-02-02 
+
+; Radix for data values
+memory_initialization_radix=16;
+
+; Define memory content starting from address 0x000 in ascending order ...
+; (all lines starting with a semicolon are comment lines)
+memory_initialization_vector=
+; data at address 0x000:
+001,
+; data at address 0x001:
+002,
+; data at address 0x002:
+003,
+; data at address 0x003:
+004,
+; data at address 0x004:
+005,
+; data at address 0x005:
+006,
+; data at address 0x006:
+007,
+; data at address 0x007:
+008,
+; data at address 0x008:
+009,
+; data at address 0x009:
+00A,
+; data at address 0x00A:
+00B,
+; data at address 0x00B:
+00C,
+; data at address 0x00C:
+00D,
+; data at address 0x00D:
+00E,
+; data at address 0x00E:
+00F,
+; data at address 0x00F:
+010,
+; data at address 0x010:
+011,
+; data at address 0x011:
+012,
+; data at address 0x012:
+013,
+; data at address 0x013:
+014,
+; data at address 0x014:
+015,
+; data at address 0x015:
+016,
+; data at address 0x016:
+017,
+; data at address 0x017:
+018,
+; data at address 0x018:
+019,
+; data at address 0x019:
+01A,
+; data at address 0x01A:
+01B,
+; data at address 0x01B:
+01C,
+; data at address 0x01C:
+01D,
+; data at address 0x01D:
+01E,
+; data at address 0x01E:
+01F,
+; data at address 0x01F:
+020,
+; data at address 0x020:
+021,
+; data at address 0x021:
+022,
+; data at address 0x022:
+023,
+; data at address 0x023:
+024,
+; data at address 0x024:
+025,
+; data at address 0x025:
+026,
+; data at address 0x026:
+027,
+; data at address 0x027:
+028,
+; data at address 0x028:
+029,
+; data at address 0x029:
+02A,
+; data at address 0x02A:
+02B,
+; data at address 0x02B:
+02C,
+; data at address 0x02C:
+02D,
+; data at address 0x02D:
+02E,
+; data at address 0x02E:
+02F,
+; data at address 0x02F:
+030,
+; data at address 0x030:
+031,
+; data at address 0x031:
+032,
+; data at address 0x032:
+033,
+; data at address 0x033:
+034,
+; data at address 0x034:
+035,
+; data at address 0x035:
+036,
+; data at address 0x036:
+037,
+; data at address 0x037:
+038,
+; data at address 0x038:
+039,
+; data at address 0x039:
+03A,
+; data at address 0x03A:
+03B,
+; data at address 0x03B:
+03C,
+; data at address 0x03C:
+03D,
+; data at address 0x03D:
+03E,
+; data at address 0x03E:
+03F,
+; data at address 0x03F:
+040,
+; data at address 0x040:
+041,
+; data at address 0x041:
+042,
+; data at address 0x042:
+043,
+; data at address 0x043:
+044,
+; data at address 0x044:
+045,
+; data at address 0x045:
+046,
+; data at address 0x046:
+047,
+; data at address 0x047:
+048,
+; data at address 0x048:
+049,
+; data at address 0x049:
+04A,
+; data at address 0x04A:
+04B,
+; data at address 0x04B:
+04C,
+; data at address 0x04C:
+04D,
+; data at address 0x04D:
+04E,
+; data at address 0x04E:
+04F,
+; data at address 0x04F:
+050,
+; data at address 0x050:
+051,
+; data at address 0x051:
+052,
+; data at address 0x052:
+053,
+; data at address 0x053:
+054,
+; data at address 0x054:
+055,
+; data at address 0x055:
+056,
+; data at address 0x056:
+057,
+; data at address 0x057:
+058,
+; data at address 0x058:
+059,
+; data at address 0x059:
+05A,
+; data at address 0x05A:
+05B,
+; data at address 0x05B:
+05C,
+; data at address 0x05C:
+05D,
+; data at address 0x05D:
+05E,
+; data at address 0x05E:
+05F,
+; data at address 0x05F:
+060,
+; data at address 0x060:
+061,
+; data at address 0x061:
+062,
+; data at address 0x062:
+063,
+; data at address 0x063:
+064,
+; data at address 0x064:
+065,
+; data at address 0x065:
+066,
+; data at address 0x066:
+067,
+; data at address 0x067:
+068,
+; data at address 0x068:
+069,
+; data at address 0x069:
+06A,
+; data at address 0x06A:
+06B,
+; data at address 0x06B:
+06C,
+; data at address 0x06C:
+06D,
+; data at address 0x06D:
+06E,
+; data at address 0x06E:
+06F,
+; data at address 0x06F:
+070,
+; data at address 0x070:
+071,
+; data at address 0x071:
+072,
+; data at address 0x072:
+073,
+; data at address 0x073:
+074,
+; data at address 0x074:
+075,
+; data at address 0x075:
+076,
+; data at address 0x076:
+077,
+; data at address 0x077:
+078,
+; data at address 0x078:
+079,
+; data at address 0x079:
+07A,
+; data at address 0x07A:
+07B,
+; data at address 0x07B:
+07C,
+; data at address 0x07C:
+07D,
+; data at address 0x07D:
+07E,
+; data at address 0x07E:
+07F,
+; data at address 0x07F:
+080,
+; data at address 0x080:
+081,
+; data at address 0x081:
+082,
+; data at address 0x082:
+083,
+; data at address 0x083:
+084,
+; data at address 0x084:
+085,
+; data at address 0x085:
+086,
+; data at address 0x086:
+087,
+; data at address 0x087:
+088,
+; data at address 0x088:
+089,
+; data at address 0x089:
+08A,
+; data at address 0x08A:
+08B,
+; data at address 0x08B:
+08C,
+; data at address 0x08C:
+08D,
+; data at address 0x08D:
+08E,
+; data at address 0x08E:
+08F,
+; data at address 0x08F:
+090,
+; data at address 0x090:
+091,
+; data at address 0x091:
+092,
+; data at address 0x092:
+093,
+; data at address 0x093:
+094,
+; data at address 0x094:
+095,
+; data at address 0x095:
+096,
+; data at address 0x096:
+097,
+; data at address 0x097:
+098,
+; data at address 0x098:
+099,
+; data at address 0x099:
+09A,
+; data at address 0x09A:
+09B,
+; data at address 0x09B:
+09C,
+; data at address 0x09C:
+09D,
+; data at address 0x09D:
+09E,
+; data at address 0x09E:
+09F,
+; data at address 0x09F:
+0A0,
+; data at address 0x0A0:
+0A1,
+; data at address 0x0A1:
+0A2,
+; data at address 0x0A2:
+0A3,
+; data at address 0x0A3:
+0A4,
+; data at address 0x0A4:
+0A5,
+; data at address 0x0A5:
+0A6,
+; data at address 0x0A6:
+0A7,
+; data at address 0x0A7:
+0A8,
+; data at address 0x0A8:
+0A9,
+; data at address 0x0A9:
+0AA,
+; data at address 0x0AA:
+0AB,
+; data at address 0x0AB:
+0AC,
+; data at address 0x0AC:
+0AD,
+; data at address 0x0AD:
+0AE,
+; data at address 0x0AE:
+0AF,
+; data at address 0x0AF:
+0B0,
+; data at address 0x0B0:
+0B1,
+; data at address 0x0B1:
+0B2,
+; data at address 0x0B2:
+0B3,
+; data at address 0x0B3:
+0B4,
+; data at address 0x0B4:
+0B5,
+; data at address 0x0B5:
+0B6,
+; data at address 0x0B6:
+0B7,
+; data at address 0x0B7:
+0B8,
+; data at address 0x0B8:
+0B9,
+; data at address 0x0B9:
+0BA,
+; data at address 0x0BA:
+0BB,
+; data at address 0x0BB:
+0BC,
+; data at address 0x0BC:
+0BD,
+; data at address 0x0BD:
+0BE,
+; data at address 0x0BE:
+0BF,
+; data at address 0x0BF:
+0C0,
+; data at address 0x0C0:
+0C1,
+; data at address 0x0C1:
+0C2,
+; data at address 0x0C2:
+0C3,
+; data at address 0x0C3:
+0C4,
+; data at address 0x0C4:
+0C5,
+; data at address 0x0C5:
+0C6,
+; data at address 0x0C6:
+0C7,
+; data at address 0x0C7:
+0C8,
+; data at address 0x0C8:
+0C9,
+; data at address 0x0C9:
+0CA,
+; data at address 0x0CA:
+0CB,
+; data at address 0x0CB:
+0CC,
+; data at address 0x0CC:
+0CD,
+; data at address 0x0CD:
+0CE,
+; data at address 0x0CE:
+0CF,
+; data at address 0x0CF:
+0D0,
+; data at address 0x0D0:
+0D1,
+; data at address 0x0D1:
+0D2,
+; data at address 0x0D2:
+0D3,
+; data at address 0x0D3:
+0D4,
+; data at address 0x0D4:
+0D5,
+; data at address 0x0D5:
+0D6,
+; data at address 0x0D6:
+0D7,
+; data at address 0x0D7:
+0D8,
+; data at address 0x0D8:
+0D9,
+; data at address 0x0D9:
+0DA,
+; data at address 0x0DA:
+0DB,
+; data at address 0x0DB:
+0DC,
+; data at address 0x0DC:
+0DD,
+; data at address 0x0DD:
+0DE,
+; data at address 0x0DE:
+0DF,
+; data at address 0x0DF:
+0E0,
+; data at address 0x0E0:
+0E1,
+; data at address 0x0E1:
+0E2,
+; data at address 0x0E2:
+0E3,
+; data at address 0x0E3:
+0E4,
+; data at address 0x0E4:
+0E5,
+; data at address 0x0E5:
+0E6,
+; data at address 0x0E6:
+0E7,
+; data at address 0x0E7:
+0E8,
+; data at address 0x0E8:
+0E9,
+; data at address 0x0E9:
+0EA,
+; data at address 0x0EA:
+0EB,
+; data at address 0x0EB:
+0EC,
+; data at address 0x0EC:
+0ED,
+; data at address 0x0ED:
+0EE,
+; data at address 0x0EE:
+0EF,
+; data at address 0x0EF:
+0F0,
+; data at address 0x0F0:
+0F1,
+; data at address 0x0F1:
+0F2,
+; data at address 0x0F2:
+0F3,
+; data at address 0x0F3:
+0F4,
+; data at address 0x0F4:
+0F5,
+; data at address 0x0F5:
+0F6,
+; data at address 0x0F6:
+0F7,
+; data at address 0x0F7:
+0F8,
+; data at address 0x0F8:
+0F9,
+; data at address 0x0F9:
+0FA,
+; data at address 0x0FA:
+0FB,
+; data at address 0x0FB:
+0FC,
+; data at address 0x0FC:
+0FD,
+; data at address 0x0FD:
+0FE,
+; data at address 0x0FE:
+0FF,
+; data at address 0x0FF:
+100,
+; data at address 0x100:
+101,
+; data at address 0x101:
+102,
+; data at address 0x102:
+103,
+; data at address 0x103:
+104,
+; data at address 0x104:
+105,
+; data at address 0x105:
+106,
+; data at address 0x106:
+107,
+; data at address 0x107:
+108,
+; data at address 0x108:
+109,
+; data at address 0x109:
+10A,
+; data at address 0x10A:
+10B,
+; data at address 0x10B:
+10C,
+; data at address 0x10C:
+10D,
+; data at address 0x10D:
+10E,
+; data at address 0x10E:
+10F,
+; data at address 0x10F:
+110,
+; data at address 0x110:
+111,
+; data at address 0x111:
+112,
+; data at address 0x112:
+113,
+; data at address 0x113:
+114,
+; data at address 0x114:
+115,
+; data at address 0x115:
+116,
+; data at address 0x116:
+117,
+; data at address 0x117:
+118,
+; data at address 0x118:
+119,
+; data at address 0x119:
+11A,
+; data at address 0x11A:
+11B,
+; data at address 0x11B:
+11C,
+; data at address 0x11C:
+11D,
+; data at address 0x11D:
+11E,
+; data at address 0x11E:
+11F,
+; data at address 0x11F:
+120,
+; data at address 0x120:
+121,
+; data at address 0x121:
+122,
+; data at address 0x122:
+123,
+; data at address 0x123:
+124,
+; data at address 0x124:
+125,
+; data at address 0x125:
+126,
+; data at address 0x126:
+127,
+; data at address 0x127:
+128,
+; data at address 0x128:
+129,
+; data at address 0x129:
+12A,
+; data at address 0x12A:
+12B,
+; data at address 0x12B:
+12C,
+; data at address 0x12C:
+12D,
+; data at address 0x12D:
+12E,
+; data at address 0x12E:
+12F,
+; data at address 0x12F:
+130,
+; data at address 0x130:
+131,
+; data at address 0x131:
+132,
+; data at address 0x132:
+133,
+; data at address 0x133:
+134,
+; data at address 0x134:
+135,
+; data at address 0x135:
+136,
+; data at address 0x136:
+137,
+; data at address 0x137:
+138,
+; data at address 0x138:
+139,
+; data at address 0x139:
+13A,
+; data at address 0x13A:
+13B,
+; data at address 0x13B:
+13C,
+; data at address 0x13C:
+13D,
+; data at address 0x13D:
+13E,
+; data at address 0x13E:
+13F,
+; data at address 0x13F:
+140,
+; data at address 0x140:
+141,
+; data at address 0x141:
+142,
+; data at address 0x142:
+143,
+; data at address 0x143:
+144,
+; data at address 0x144:
+145,
+; data at address 0x145:
+146,
+; data at address 0x146:
+147,
+; data at address 0x147:
+148,
+; data at address 0x148:
+149,
+; data at address 0x149:
+14A,
+; data at address 0x14A:
+14B,
+; data at address 0x14B:
+14C,
+; data at address 0x14C:
+14D,
+; data at address 0x14D:
+14E,
+; data at address 0x14E:
+14F,
+; data at address 0x14F:
+150,
+; data at address 0x150:
+151,
+; data at address 0x151:
+152,
+; data at address 0x152:
+153,
+; data at address 0x153:
+154,
+; data at address 0x154:
+155,
+; data at address 0x155:
+156,
+; data at address 0x156:
+157,
+; data at address 0x157:
+158,
+; data at address 0x158:
+159,
+; data at address 0x159:
+15A,
+; data at address 0x15A:
+15B,
+; data at address 0x15B:
+15C,
+; data at address 0x15C:
+15D,
+; data at address 0x15D:
+15E,
+; data at address 0x15E:
+15F,
+; data at address 0x15F:
+160,
+; data at address 0x160:
+161,
+; data at address 0x161:
+162,
+; data at address 0x162:
+163,
+; data at address 0x163:
+164,
+; data at address 0x164:
+165,
+; data at address 0x165:
+166,
+; data at address 0x166:
+167,
+; data at address 0x167:
+168,
+; data at address 0x168:
+169,
+; data at address 0x169:
+16A,
+; data at address 0x16A:
+16B,
+; data at address 0x16B:
+16C,
+; data at address 0x16C:
+16D,
+; data at address 0x16D:
+16E,
+; data at address 0x16E:
+16F,
+; data at address 0x16F:
+170,
+; data at address 0x170:
+171,
+; data at address 0x171:
+172,
+; data at address 0x172:
+173,
+; data at address 0x173:
+174,
+; data at address 0x174:
+175,
+; data at address 0x175:
+176,
+; data at address 0x176:
+177,
+; data at address 0x177:
+178,
+; data at address 0x178:
+179,
+; data at address 0x179:
+17A,
+; data at address 0x17A:
+17B,
+; data at address 0x17B:
+17C,
+; data at address 0x17C:
+17D,
+; data at address 0x17D:
+17E,
+; data at address 0x17E:
+17F,
+; data at address 0x17F:
+180,
+; data at address 0x180:
+181,
+; data at address 0x181:
+182,
+; data at address 0x182:
+183,
+; data at address 0x183:
+184,
+; data at address 0x184:
+185,
+; data at address 0x185:
+186,
+; data at address 0x186:
+187,
+; data at address 0x187:
+188,
+; data at address 0x188:
+189,
+; data at address 0x189:
+18A,
+; data at address 0x18A:
+18B,
+; data at address 0x18B:
+18C,
+; data at address 0x18C:
+18D,
+; data at address 0x18D:
+18E,
+; data at address 0x18E:
+18F,
+; data at address 0x18F:
+190,
+; data at address 0x190:
+191,
+; data at address 0x191:
+192,
+; data at address 0x192:
+193,
+; data at address 0x193:
+194,
+; data at address 0x194:
+195,
+; data at address 0x195:
+196,
+; data at address 0x196:
+197,
+; data at address 0x197:
+198,
+; data at address 0x198:
+199,
+; data at address 0x199:
+19A,
+; data at address 0x19A:
+19B,
+; data at address 0x19B:
+19C,
+; data at address 0x19C:
+19D,
+; data at address 0x19D:
+19E,
+; data at address 0x19E:
+19F,
+; data at address 0x19F:
+1A0,
+; data at address 0x1A0:
+1A1,
+; data at address 0x1A1:
+1A2,
+; data at address 0x1A2:
+1A3,
+; data at address 0x1A3:
+1A4,
+; data at address 0x1A4:
+1A5,
+; data at address 0x1A5:
+1A6,
+; data at address 0x1A6:
+1A7,
+; data at address 0x1A7:
+1A8,
+; data at address 0x1A8:
+1A9,
+; data at address 0x1A9:
+1AA,
+; data at address 0x1AA:
+1AB,
+; data at address 0x1AB:
+1AC,
+; data at address 0x1AC:
+1AD,
+; data at address 0x1AD:
+1AE,
+; data at address 0x1AE:
+1AF,
+; data at address 0x1AF:
+1B0,
+; data at address 0x1B0:
+1B1,
+; data at address 0x1B1:
+1B2,
+; data at address 0x1B2:
+1B3,
+; data at address 0x1B3:
+1B4,
+; data at address 0x1B4:
+1B5,
+; data at address 0x1B5:
+1B6,
+; data at address 0x1B6:
+1B7,
+; data at address 0x1B7:
+1B8,
+; data at address 0x1B8:
+1B9,
+; data at address 0x1B9:
+1BA,
+; data at address 0x1BA:
+1BB,
+; data at address 0x1BB:
+1BC,
+; data at address 0x1BC:
+1BD,
+; data at address 0x1BD:
+1BE,
+; data at address 0x1BE:
+1BF,
+; data at address 0x1BF:
+1C0,
+; data at address 0x1C0:
+1C1,
+; data at address 0x1C1:
+1C2,
+; data at address 0x1C2:
+1C3,
+; data at address 0x1C3:
+1C4,
+; data at address 0x1C4:
+1C5,
+; data at address 0x1C5:
+1C6,
+; data at address 0x1C6:
+1C7,
+; data at address 0x1C7:
+1C8,
+; data at address 0x1C8:
+1C9,
+; data at address 0x1C9:
+1CA,
+; data at address 0x1CA:
+1CB,
+; data at address 0x1CB:
+1CC,
+; data at address 0x1CC:
+1CD,
+; data at address 0x1CD:
+1CE,
+; data at address 0x1CE:
+1CF,
+; data at address 0x1CF:
+1D0,
+; data at address 0x1D0:
+1D1,
+; data at address 0x1D1:
+1D2,
+; data at address 0x1D2:
+1D3,
+; data at address 0x1D3:
+1D4,
+; data at address 0x1D4:
+1D5,
+; data at address 0x1D5:
+1D6,
+; data at address 0x1D6:
+1D7,
+; data at address 0x1D7:
+1D8,
+; data at address 0x1D8:
+1D9,
+; data at address 0x1D9:
+1DA,
+; data at address 0x1DA:
+1DB,
+; data at address 0x1DB:
+1DC,
+; data at address 0x1DC:
+1DD,
+; data at address 0x1DD:
+1DE,
+; data at address 0x1DE:
+1DF,
+; data at address 0x1DF:
+1E0,
+; data at address 0x1E0:
+1E1,
+; data at address 0x1E1:
+1E2,
+; data at address 0x1E2:
+1E3,
+; data at address 0x1E3:
+1E4,
+; data at address 0x1E4:
+1E5,
+; data at address 0x1E5:
+1E6,
+; data at address 0x1E6:
+1E7,
+; data at address 0x1E7:
+1E8,
+; data at address 0x1E8:
+1E9,
+; data at address 0x1E9:
+1EA,
+; data at address 0x1EA:
+1EB,
+; data at address 0x1EB:
+1EC,
+; data at address 0x1EC:
+1ED,
+; data at address 0x1ED:
+1EE,
+; data at address 0x1EE:
+1EF,
+; data at address 0x1EF:
+1F0,
+; data at address 0x1F0:
+1F1,
+; data at address 0x1F1:
+1F2,
+; data at address 0x1F2:
+1F3,
+; data at address 0x1F3:
+1F4,
+; data at address 0x1F4:
+1F5,
+; data at address 0x1F5:
+1F6,
+; data at address 0x1F6:
+1F7,
+; data at address 0x1F7:
+1F8,
+; data at address 0x1F8:
+1F9,
+; data at address 0x1F9:
+1FA,
+; data at address 0x1FA:
+1FB,
+; data at address 0x1FB:
+1FC,
+; data at address 0x1FC:
+1FD,
+; data at address 0x1FD:
+1FE,
+; data at address 0x1FE:
+1FF,
+; data at address 0x1FF:
+200,
+; data at address 0x200:
+201,
+; data at address 0x201:
+202,
+; data at address 0x202:
+203,
+; data at address 0x203:
+204,
+; data at address 0x204:
+205,
+; data at address 0x205:
+206,
+; data at address 0x206:
+207,
+; data at address 0x207:
+208,
+; data at address 0x208:
+209,
+; data at address 0x209:
+20A,
+; data at address 0x20A:
+20B,
+; data at address 0x20B:
+20C,
+; data at address 0x20C:
+20D,
+; data at address 0x20D:
+20E,
+; data at address 0x20E:
+20F,
+; data at address 0x20F:
+210,
+; data at address 0x210:
+211,
+; data at address 0x211:
+212,
+; data at address 0x212:
+213,
+; data at address 0x213:
+214,
+; data at address 0x214:
+215,
+; data at address 0x215:
+216,
+; data at address 0x216:
+217,
+; data at address 0x217:
+218,
+; data at address 0x218:
+219,
+; data at address 0x219:
+21A,
+; data at address 0x21A:
+21B,
+; data at address 0x21B:
+21C,
+; data at address 0x21C:
+21D,
+; data at address 0x21D:
+21E,
+; data at address 0x21E:
+21F,
+; data at address 0x21F:
+220,
+; data at address 0x220:
+221,
+; data at address 0x221:
+222,
+; data at address 0x222:
+223,
+; data at address 0x223:
+224,
+; data at address 0x224:
+225,
+; data at address 0x225:
+226,
+; data at address 0x226:
+227,
+; data at address 0x227:
+228,
+; data at address 0x228:
+229,
+; data at address 0x229:
+22A,
+; data at address 0x22A:
+22B,
+; data at address 0x22B:
+22C,
+; data at address 0x22C:
+22D,
+; data at address 0x22D:
+22E,
+; data at address 0x22E:
+22F,
+; data at address 0x22F:
+230,
+; data at address 0x230:
+231,
+; data at address 0x231:
+232,
+; data at address 0x232:
+233,
+; data at address 0x233:
+234,
+; data at address 0x234:
+235,
+; data at address 0x235:
+236,
+; data at address 0x236:
+237,
+; data at address 0x237:
+238,
+; data at address 0x238:
+239,
+; data at address 0x239:
+23A,
+; data at address 0x23A:
+23B,
+; data at address 0x23B:
+23C,
+; data at address 0x23C:
+23D,
+; data at address 0x23D:
+23E,
+; data at address 0x23E:
+23F,
+; data at address 0x23F:
+240,
+; data at address 0x240:
+241,
+; data at address 0x241:
+242,
+; data at address 0x242:
+243,
+; data at address 0x243:
+244,
+; data at address 0x244:
+245,
+; data at address 0x245:
+246,
+; data at address 0x246:
+247,
+; data at address 0x247:
+248,
+; data at address 0x248:
+249,
+; data at address 0x249:
+24A,
+; data at address 0x24A:
+24B,
+; data at address 0x24B:
+24C,
+; data at address 0x24C:
+24D,
+; data at address 0x24D:
+24E,
+; data at address 0x24E:
+24F,
+; data at address 0x24F:
+250,
+; data at address 0x250:
+251,
+; data at address 0x251:
+252,
+; data at address 0x252:
+253,
+; data at address 0x253:
+254,
+; data at address 0x254:
+255,
+; data at address 0x255:
+256,
+; data at address 0x256:
+257,
+; data at address 0x257:
+258,
+; data at address 0x258:
+259,
+; data at address 0x259:
+25A,
+; data at address 0x25A:
+25B,
+; data at address 0x25B:
+25C,
+; data at address 0x25C:
+25D,
+; data at address 0x25D:
+25E,
+; data at address 0x25E:
+25F,
+; data at address 0x25F:
+260,
+; data at address 0x260:
+261,
+; data at address 0x261:
+262,
+; data at address 0x262:
+263,
+; data at address 0x263:
+264,
+; data at address 0x264:
+265,
+; data at address 0x265:
+266,
+; data at address 0x266:
+267,
+; data at address 0x267:
+268,
+; data at address 0x268:
+269,
+; data at address 0x269:
+26A,
+; data at address 0x26A:
+26B,
+; data at address 0x26B:
+26C,
+; data at address 0x26C:
+26D,
+; data at address 0x26D:
+26E,
+; data at address 0x26E:
+26F,
+; data at address 0x26F:
+270,
+; data at address 0x270:
+271,
+; data at address 0x271:
+272,
+; data at address 0x272:
+273,
+; data at address 0x273:
+274,
+; data at address 0x274:
+275,
+; data at address 0x275:
+276,
+; data at address 0x276:
+277,
+; data at address 0x277:
+278,
+; data at address 0x278:
+279,
+; data at address 0x279:
+27A,
+; data at address 0x27A:
+27B,
+; data at address 0x27B:
+27C,
+; data at address 0x27C:
+27D,
+; data at address 0x27D:
+27E,
+; data at address 0x27E:
+27F,
+; data at address 0x27F:
+280,
+; data at address 0x280:
+281,
+; data at address 0x281:
+282,
+; data at address 0x282:
+283,
+; data at address 0x283:
+284,
+; data at address 0x284:
+285,
+; data at address 0x285:
+286,
+; data at address 0x286:
+287,
+; data at address 0x287:
+288,
+; data at address 0x288:
+289,
+; data at address 0x289:
+28A,
+; data at address 0x28A:
+28B,
+; data at address 0x28B:
+28C,
+; data at address 0x28C:
+28D,
+; data at address 0x28D:
+28E,
+; data at address 0x28E:
+28F,
+; data at address 0x28F:
+290,
+; data at address 0x290:
+291,
+; data at address 0x291:
+292,
+; data at address 0x292:
+293,
+; data at address 0x293:
+294,
+; data at address 0x294:
+295,
+; data at address 0x295:
+296,
+; data at address 0x296:
+297,
+; data at address 0x297:
+298,
+; data at address 0x298:
+299,
+; data at address 0x299:
+29A,
+; data at address 0x29A:
+29B,
+; data at address 0x29B:
+29C,
+; data at address 0x29C:
+29D,
+; data at address 0x29D:
+29E,
+; data at address 0x29E:
+29F,
+; data at address 0x29F:
+2A0,
+; data at address 0x2A0:
+2A1,
+; data at address 0x2A1:
+2A2,
+; data at address 0x2A2:
+2A3,
+; data at address 0x2A3:
+2A4,
+; data at address 0x2A4:
+2A5,
+; data at address 0x2A5:
+2A6,
+; data at address 0x2A6:
+2A7,
+; data at address 0x2A7:
+2A8,
+; data at address 0x2A8:
+2A9,
+; data at address 0x2A9:
+2AA,
+; data at address 0x2AA:
+2AB,
+; data at address 0x2AB:
+2AC,
+; data at address 0x2AC:
+2AD,
+; data at address 0x2AD:
+2AE,
+; data at address 0x2AE:
+2AF,
+; data at address 0x2AF:
+2B0,
+; data at address 0x2B0:
+2B1,
+; data at address 0x2B1:
+2B2,
+; data at address 0x2B2:
+2B3,
+; data at address 0x2B3:
+2B4,
+; data at address 0x2B4:
+2B5,
+; data at address 0x2B5:
+2B6,
+; data at address 0x2B6:
+2B7,
+; data at address 0x2B7:
+2B8,
+; data at address 0x2B8:
+2B9,
+; data at address 0x2B9:
+2BA,
+; data at address 0x2BA:
+2BB,
+; data at address 0x2BB:
+2BC,
+; data at address 0x2BC:
+2BD,
+; data at address 0x2BD:
+2BE,
+; data at address 0x2BE:
+2BF,
+; data at address 0x2BF:
+2C0,
+; data at address 0x2C0:
+2C1,
+; data at address 0x2C1:
+2C2,
+; data at address 0x2C2:
+2C3,
+; data at address 0x2C3:
+2C4,
+; data at address 0x2C4:
+2C5,
+; data at address 0x2C5:
+2C6,
+; data at address 0x2C6:
+2C7,
+; data at address 0x2C7:
+2C8,
+; data at address 0x2C8:
+2C9,
+; data at address 0x2C9:
+2CA,
+; data at address 0x2CA:
+2CB,
+; data at address 0x2CB:
+2CC,
+; data at address 0x2CC:
+2CD,
+; data at address 0x2CD:
+2CE,
+; data at address 0x2CE:
+2CF,
+; data at address 0x2CF:
+2D0,
+; data at address 0x2D0:
+2D1,
+; data at address 0x2D1:
+2D2,
+; data at address 0x2D2:
+2D3,
+; data at address 0x2D3:
+2D4,
+; data at address 0x2D4:
+2D5,
+; data at address 0x2D5:
+2D6,
+; data at address 0x2D6:
+2D7,
+; data at address 0x2D7:
+2D8,
+; data at address 0x2D8:
+2D9,
+; data at address 0x2D9:
+2DA,
+; data at address 0x2DA:
+2DB,
+; data at address 0x2DB:
+2DC,
+; data at address 0x2DC:
+2DD,
+; data at address 0x2DD:
+2DE,
+; data at address 0x2DE:
+2DF,
+; data at address 0x2DF:
+2E0,
+; data at address 0x2E0:
+2E1,
+; data at address 0x2E1:
+2E2,
+; data at address 0x2E2:
+2E3,
+; data at address 0x2E3:
+2E4,
+; data at address 0x2E4:
+2E5,
+; data at address 0x2E5:
+2E6,
+; data at address 0x2E6:
+2E7,
+; data at address 0x2E7:
+2E8,
+; data at address 0x2E8:
+2E9,
+; data at address 0x2E9:
+2EA,
+; data at address 0x2EA:
+2EB,
+; data at address 0x2EB:
+2EC,
+; data at address 0x2EC:
+2ED,
+; data at address 0x2ED:
+2EE,
+; data at address 0x2EE:
+2EF,
+; data at address 0x2EF:
+2F0,
+; data at address 0x2F0:
+2F1,
+; data at address 0x2F1:
+2F2,
+; data at address 0x2F2:
+2F3,
+; data at address 0x2F3:
+2F4,
+; data at address 0x2F4:
+2F5,
+; data at address 0x2F5:
+2F6,
+; data at address 0x2F6:
+2F7,
+; data at address 0x2F7:
+2F8,
+; data at address 0x2F8:
+2F9,
+; data at address 0x2F9:
+2FA,
+; data at address 0x2FA:
+2FB,
+; data at address 0x2FB:
+2FC,
+; data at address 0x2FC:
+2FD,
+; data at address 0x2FD:
+2FE,
+; data at address 0x2FE:
+2FF,
+; data at address 0x2FF:
+300,
+; data at address 0x300:
+301,
+; data at address 0x301:
+302,
+; data at address 0x302:
+303,
+; data at address 0x303:
+304,
+; data at address 0x304:
+305,
+; data at address 0x305:
+306,
+; data at address 0x306:
+307,
+; data at address 0x307:
+308,
+; data at address 0x308:
+309,
+; data at address 0x309:
+30A,
+; data at address 0x30A:
+30B,
+; data at address 0x30B:
+30C,
+; data at address 0x30C:
+30D,
+; data at address 0x30D:
+30E,
+; data at address 0x30E:
+30F,
+; data at address 0x30F:
+310,
+; data at address 0x310:
+311,
+; data at address 0x311:
+312,
+; data at address 0x312:
+313,
+; data at address 0x313:
+314,
+; data at address 0x314:
+315,
+; data at address 0x315:
+316,
+; data at address 0x316:
+317,
+; data at address 0x317:
+318,
+; data at address 0x318:
+319,
+; data at address 0x319:
+31A,
+; data at address 0x31A:
+31B,
+; data at address 0x31B:
+31C,
+; data at address 0x31C:
+31D,
+; data at address 0x31D:
+31E,
+; data at address 0x31E:
+31F,
+; data at address 0x31F:
+320,
+; data at address 0x320:
+321,
+; data at address 0x321:
+322,
+; data at address 0x322:
+323,
+; data at address 0x323:
+324,
+; data at address 0x324:
+325,
+; data at address 0x325:
+326,
+; data at address 0x326:
+327,
+; data at address 0x327:
+328,
+; data at address 0x328:
+329,
+; data at address 0x329:
+32A,
+; data at address 0x32A:
+32B,
+; data at address 0x32B:
+32C,
+; data at address 0x32C:
+32D,
+; data at address 0x32D:
+32E,
+; data at address 0x32E:
+32F,
+; data at address 0x32F:
+330,
+; data at address 0x330:
+331,
+; data at address 0x331:
+332,
+; data at address 0x332:
+333,
+; data at address 0x333:
+334,
+; data at address 0x334:
+335,
+; data at address 0x335:
+336,
+; data at address 0x336:
+337,
+; data at address 0x337:
+338,
+; data at address 0x338:
+339,
+; data at address 0x339:
+33A,
+; data at address 0x33A:
+33B,
+; data at address 0x33B:
+33C,
+; data at address 0x33C:
+33D,
+; data at address 0x33D:
+33E,
+; data at address 0x33E:
+33F,
+; data at address 0x33F:
+340,
+; data at address 0x340:
+341,
+; data at address 0x341:
+342,
+; data at address 0x342:
+343,
+; data at address 0x343:
+344,
+; data at address 0x344:
+345,
+; data at address 0x345:
+346,
+; data at address 0x346:
+347,
+; data at address 0x347:
+348,
+; data at address 0x348:
+349,
+; data at address 0x349:
+34A,
+; data at address 0x34A:
+34B,
+; data at address 0x34B:
+34C,
+; data at address 0x34C:
+34D,
+; data at address 0x34D:
+34E,
+; data at address 0x34E:
+34F,
+; data at address 0x34F:
+350,
+; data at address 0x350:
+351,
+; data at address 0x351:
+352,
+; data at address 0x352:
+353,
+; data at address 0x353:
+354,
+; data at address 0x354:
+355,
+; data at address 0x355:
+356,
+; data at address 0x356:
+357,
+; data at address 0x357:
+358,
+; data at address 0x358:
+359,
+; data at address 0x359:
+35A,
+; data at address 0x35A:
+35B,
+; data at address 0x35B:
+35C,
+; data at address 0x35C:
+35D,
+; data at address 0x35D:
+35E,
+; data at address 0x35E:
+35F,
+; data at address 0x35F:
+360,
+; data at address 0x360:
+361,
+; data at address 0x361:
+362,
+; data at address 0x362:
+363,
+; data at address 0x363:
+364,
+; data at address 0x364:
+365,
+; data at address 0x365:
+366,
+; data at address 0x366:
+367,
+; data at address 0x367:
+368,
+; data at address 0x368:
+369,
+; data at address 0x369:
+36A,
+; data at address 0x36A:
+36B,
+; data at address 0x36B:
+36C,
+; data at address 0x36C:
+36D,
+; data at address 0x36D:
+36E,
+; data at address 0x36E:
+36F,
+; data at address 0x36F:
+370,
+; data at address 0x370:
+371,
+; data at address 0x371:
+372,
+; data at address 0x372:
+373,
+; data at address 0x373:
+374,
+; data at address 0x374:
+375,
+; data at address 0x375:
+376,
+; data at address 0x376:
+377,
+; data at address 0x377:
+378,
+; data at address 0x378:
+379,
+; data at address 0x379:
+37A,
+; data at address 0x37A:
+37B,
+; data at address 0x37B:
+37C,
+; data at address 0x37C:
+37D,
+; data at address 0x37D:
+37E,
+; data at address 0x37E:
+37F,
+; data at address 0x37F:
+380,
+; data at address 0x380:
+381,
+; data at address 0x381:
+382,
+; data at address 0x382:
+383,
+; data at address 0x383:
+384,
+; data at address 0x384:
+385,
+; data at address 0x385:
+386,
+; data at address 0x386:
+387,
+; data at address 0x387:
+388,
+; data at address 0x388:
+389,
+; data at address 0x389:
+38A,
+; data at address 0x38A:
+38B,
+; data at address 0x38B:
+38C,
+; data at address 0x38C:
+38D,
+; data at address 0x38D:
+38E,
+; data at address 0x38E:
+38F,
+; data at address 0x38F:
+390,
+; data at address 0x390:
+391,
+; data at address 0x391:
+392,
+; data at address 0x392:
+393,
+; data at address 0x393:
+394,
+; data at address 0x394:
+395,
+; data at address 0x395:
+396,
+; data at address 0x396:
+397,
+; data at address 0x397:
+398,
+; data at address 0x398:
+399,
+; data at address 0x399:
+39A,
+; data at address 0x39A:
+39B,
+; data at address 0x39B:
+39C,
+; data at address 0x39C:
+39D,
+; data at address 0x39D:
+39E,
+; data at address 0x39E:
+39F,
+; data at address 0x39F:
+3A0,
+; data at address 0x3A0:
+3A1,
+; data at address 0x3A1:
+3A2,
+; data at address 0x3A2:
+3A3,
+; data at address 0x3A3:
+3A4,
+; data at address 0x3A4:
+3A5,
+; data at address 0x3A5:
+3A6,
+; data at address 0x3A6:
+3A7,
+; data at address 0x3A7:
+3A8,
+; data at address 0x3A8:
+3A9,
+; data at address 0x3A9:
+3AA,
+; data at address 0x3AA:
+3AB,
+; data at address 0x3AB:
+3AC,
+; data at address 0x3AC:
+3AD,
+; data at address 0x3AD:
+3AE,
+; data at address 0x3AE:
+3AF,
+; data at address 0x3AF:
+3B0,
+; data at address 0x3B0:
+3B1,
+; data at address 0x3B1:
+3B2,
+; data at address 0x3B2:
+3B3,
+; data at address 0x3B3:
+3B4,
+; data at address 0x3B4:
+3B5,
+; data at address 0x3B5:
+3B6,
+; data at address 0x3B6:
+3B7,
+; data at address 0x3B7:
+3B8,
+; data at address 0x3B8:
+3B9,
+; data at address 0x3B9:
+3BA,
+; data at address 0x3BA:
+3BB,
+; data at address 0x3BB:
+3BC,
+; data at address 0x3BC:
+3BD,
+; data at address 0x3BD:
+3BE,
+; data at address 0x3BE:
+3BF,
+; data at address 0x3BF:
+3C0,
+; data at address 0x3C0:
+3C1,
+; data at address 0x3C1:
+3C2,
+; data at address 0x3C2:
+3C3,
+; data at address 0x3C3:
+3C4,
+; data at address 0x3C4:
+3C5,
+; data at address 0x3C5:
+3C6,
+; data at address 0x3C6:
+3C7,
+; data at address 0x3C7:
+3C8,
+; data at address 0x3C8:
+3C9,
+; data at address 0x3C9:
+3CA,
+; data at address 0x3CA:
+3CB,
+; data at address 0x3CB:
+3CC,
+; data at address 0x3CC:
+3CD,
+; data at address 0x3CD:
+3CE,
+; data at address 0x3CE:
+3CF,
+; data at address 0x3CF:
+3D0,
+; data at address 0x3D0:
+3D1,
+; data at address 0x3D1:
+3D2,
+; data at address 0x3D2:
+3D3,
+; data at address 0x3D3:
+3D4,
+; data at address 0x3D4:
+3D5,
+; data at address 0x3D5:
+3D6,
+; data at address 0x3D6:
+3D7,
+; data at address 0x3D7:
+3D8,
+; data at address 0x3D8:
+3D9,
+; data at address 0x3D9:
+3DA,
+; data at address 0x3DA:
+3DB,
+; data at address 0x3DB:
+3DC,
+; data at address 0x3DC:
+3DD,
+; data at address 0x3DD:
+3DE,
+; data at address 0x3DE:
+3DF,
+; data at address 0x3DF:
+3E0,
+; data at address 0x3E0:
+3E1,
+; data at address 0x3E1:
+3E2,
+; data at address 0x3E2:
+3E3,
+; data at address 0x3E3:
+3E4,
+; data at address 0x3E4:
+3E5,
+; data at address 0x3E5:
+3E6,
+; data at address 0x3E6:
+3E7,
+; data at address 0x3E7:
+3E8,
+; data at address 0x3E8:
+3E9,
+; data at address 0x3E9:
+3EA,
+; data at address 0x3EA:
+3EB,
+; data at address 0x3EB:
+3EC,
+; data at address 0x3EC:
+3ED,
+; data at address 0x3ED:
+3EE,
+; data at address 0x3EE:
+3EF,
+; data at address 0x3EF:
+3F0,
+; data at address 0x3F0:
+3F1,
+; data at address 0x3F1:
+3F2,
+; data at address 0x3F2:
+3F3,
+; data at address 0x3F3:
+3F4,
+; data at address 0x3F4:
+3F5,
+; data at address 0x3F5:
+3F6,
+; data at address 0x3F6:
+3F7,
+; data at address 0x3F7:
+3F8,
+; data at address 0x3F8:
+3F9,
+; data at address 0x3F9:
+3FA,
+; data at address 0x3FA:
+3FB,
+; data at address 0x3FB:
+3FC,
+; data at address 0x3FC:
+3FD,
+; data at address 0x3FD:
+3FE,
+; data at address 0x3FE:
+3FF,
+; data at address 0x3FF:
+000;

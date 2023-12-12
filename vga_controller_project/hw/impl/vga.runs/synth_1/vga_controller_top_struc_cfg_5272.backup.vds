@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Nov 15 15:47:22 2023
+# Process ID: 5272
+# Current directory: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1
+# Command line: vivado.exe -log vga_controller_top_struc_cfg.vds -mode batch -messageDb vivado.pb -notrace -source vga_controller_top_struc_cfg.tcl
+# Log file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/vga_controller_top_struc_cfg.vds
+# Journal file: C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source vga_controller_top_struc_cfg.tcl -notrace
+Command: synth_design -top vga_controller_top_struc_cfg -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23980 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 281.387 ; gain = 74.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'vga_controller_top_struc_cfg' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc_cfg.vhd:1]
+INFO: [Synth 8-3491] module 'io_logic' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/io_logic/io_logic_.vhd:22' bound to instance 'i_io_logic' of component 'io_logic' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:231]
+INFO: [Synth 8-638] synthesizing module 'io_logic' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/io_logic/io_logic_rtl.vhd:23]
+INFO: [Synth 8-226] default block is never used [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/io_logic/io_logic_rtl.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'io_logic' (1#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/io_logic/io_logic_rtl.vhd:23]
+INFO: [Synth 8-3491] module 'mem_ctrl_1' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_1/mem_ctrl_1_.vhd:27' bound to instance 'i_mem_ctrl_1' of component 'mem_ctrl_1' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'mem_ctrl_1' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_1/mem_ctrl_1_rtl.vhd:27]
+INFO: [Synth 8-3491] module 'rom1' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/.Xil/Vivado-5272-oager_laptop/realtime/rom1_stub.vhdl:5' bound to instance 'i_rom' of component 'rom1' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_1/mem_ctrl_1_rtl.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'rom1' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/.Xil/Vivado-5272-oager_laptop/realtime/rom1_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'mem_ctrl_1' (2#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_1/mem_ctrl_1_rtl.vhd:27]
+INFO: [Synth 8-3491] module 'mem_ctrl_2' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_2/mem_ctrl_2_.vhd:24' bound to instance 'i_mem_ctrl_2' of component 'mem_ctrl_2' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:250]
+INFO: [Synth 8-638] synthesizing module 'mem_ctrl_2' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_2/mem_ctrl_2_rtl.vhd:24]
+INFO: [Synth 8-3491] module 'rom2' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/.Xil/Vivado-5272-oager_laptop/realtime/rom2_stub.vhdl:5' bound to instance 'i_rom' of component 'rom2' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_2/mem_ctrl_2_rtl.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'rom2' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/.Xil/Vivado-5272-oager_laptop/realtime/rom2_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'mem_ctrl_2' (3#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_2/mem_ctrl_2_rtl.vhd:24]
+INFO: [Synth 8-3491] module 'mem_ctrl_3' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_3/mem_ctrl_3_.vhd:24' bound to instance 'i_mem_ctrl_3' of component 'mem_ctrl_3' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'mem_ctrl_3' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_3/mem_ctrl_3_rtl.vhd:24]
+INFO: [Synth 8-3491] module 'rom3' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/.Xil/Vivado-5272-oager_laptop/realtime/rom3_stub.vhdl:5' bound to instance 'i_rom' of component 'rom3' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_3/mem_ctrl_3_rtl.vhd:40]
+INFO: [Synth 8-638] synthesizing module 'rom3' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/impl/vga.runs/synth_1/.Xil/Vivado-5272-oager_laptop/realtime/rom3_stub.vhdl:14]
+INFO: [Synth 8-256] done synthesizing module 'mem_ctrl_3' (4#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_3/mem_ctrl_3_rtl.vhd:24]
+INFO: [Synth 8-3491] module 'pattern_gen_1' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/pattern_gen_1/pattern_gen_1_.vhd:24' bound to instance 'i_pattern_gen_1' of component 'pattern_gen_1' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:270]
+INFO: [Synth 8-638] synthesizing module 'pattern_gen_1' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/pattern_gen_1/pattern_gen_1_rtl.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'pattern_gen_1' (5#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/pattern_gen_1/pattern_gen_1_rtl.vhd:24]
+INFO: [Synth 8-3491] module 'pattern_gen_2' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/pattern_gen_2/pattern_gen_2_.vhd:25' bound to instance 'i_pattern_gen_2' of component 'pattern_gen_2' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:280]
+INFO: [Synth 8-638] synthesizing module 'pattern_gen_2' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/pattern_gen_2/pattern_gen_2_rtl.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'pattern_gen_2' (6#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/pattern_gen_2/pattern_gen_2_rtl.vhd:25]
+INFO: [Synth 8-3491] module 'prescaler' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/prescaler/prescaler_.vhd:22' bound to instance 'i_prescaler' of component 'prescaler' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'prescaler' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/prescaler/prescaler_rtl.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'prescaler' (7#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/prescaler/prescaler_rtl.vhd:23]
+INFO: [Synth 8-3491] module 'src_mux' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/src_mux/src_mux_.vhd:24' bound to instance 'i_src_mux' of component 'src_mux' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:296]
+INFO: [Synth 8-638] synthesizing module 'src_mux' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/src_mux/src_mux_rtl.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'src_mux' (8#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/src_mux/src_mux_rtl.vhd:24]
+INFO: [Synth 8-3491] module 'vga_ctrl' declared at 'C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/vga_ctrl/vga_ctrl_.vhd:24' bound to instance 'i_vga_ctrl' of component 'vga_ctrl' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc.vhd:319]
+INFO: [Synth 8-638] synthesizing module 'vga_ctrl' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/vga_ctrl/vga_ctrl_rtl.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'vga_ctrl' (9#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/vga_ctrl/vga_ctrl_rtl.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'vga_controller_top_struc_cfg' (10#1) [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/top_struc/vga_controller_top_struc_cfg.vhd:1]
+WARNING: [Synth 8-3331] design src_mux has unconnected port pixel_valid_i
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[9]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[8]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[7]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[6]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[5]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[4]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[3]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[2]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[1]
+WARNING: [Synth 8-3331] design pattern_gen_1 has unconnected port pixel_y_i[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 321.395 ; gain = 114.883
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 321.395 ; gain = 114.883
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'rom1' instantiated as 'i_mem_ctrl_1/i_rom' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_1/mem_ctrl_1_rtl.vhd:44]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'rom2' instantiated as 'i_mem_ctrl_2/i_rom' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_2/mem_ctrl_2_rtl.vhd:40]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'rom3' instantiated as 'i_mem_ctrl_3/i_rom' [C:/Users/hafer/Desktop/VHDL/vga_controller_project/hw/vhdl/mem_ctrl_3/mem_ctrl_3_rtl.vhd:40]
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
